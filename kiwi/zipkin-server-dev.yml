@@ -10,4 +10,4 @@ zipkin:
       index: zipkin
       index-shards: 3
       index-replicas: 1
-      host: localhost:9200
+      host: http://es:9200
