@@ -2,7 +2,7 @@ server:
   port: 8769
 turbine:
   app-config: hi-client,hello-client
-  cluster-name-expression: new Sring("default")
+  cluster-name-expression: new String("default")
   aggregator:
     clusterConfig: default
 management:
